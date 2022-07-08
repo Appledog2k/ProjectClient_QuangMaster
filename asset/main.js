@@ -222,3 +222,6 @@ function start() {
 }
 
 start();
+
+
+//Tao là quang
