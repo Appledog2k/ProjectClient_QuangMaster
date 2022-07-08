@@ -204,14 +204,12 @@ signupButton.onclick = function dataSignup() {
 };
 
 function showArticle(id, response) {
-  document.getElementById("Home").style.display = "none";
-  document.getElementById("Article").style.display = "block";
-  document.querySelector(".Article__heading__title").innerHTML = response.title;
-  document.querySelector(".Article__heading__time-post").innerHTML =
-    response.time;
-  document.querySelector(".Article__body--main__word").innerHTML =
-    response.content;
-  document.querySelector(".member-name").innerHTML = response.authorName;
+	document.getElementById('Home').style.display = 'none'
+	document.getElementById('Article').style.display = 'block'
+	document.querySelector('.Article__heading__title').innerHTML = response.title
+	document.querySelector('.Article__heading__time-post').innerHTML = response.time
+	document.querySelector('.Article__body--main__word').innerHTML = response.content
+	document.querySelector('.member-name').innerHTML = response.authorName
 }
 
 function showHome() {
